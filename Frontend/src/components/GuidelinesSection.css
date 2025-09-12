@@ -1,0 +1,198 @@
+.guidelines-wrapper {
+  background-color: #ffffff;
+}
+
+.guideline-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.guideline-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-orange {
+  border-top: 6px solid orange;
+}
+
+.card-blue {
+  border-top: 6px solid #0d6efd;
+}
+
+.guideline-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #333;
+  position: relative;
+}
+
+.guideline-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: currentColor;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.guideline-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.guideline-card:hover .guideline-text {
+  color: #222;
+}
+
+.criteria-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.criteria-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: #444;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.criteria-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #198754;
+  font-weight: bold;
+}
+
+.criteria-list li:hover {
+  transform: translateX(5px);
+  color: #0d6efd;
+}
+
+/* 
+.guidelines-wrapper {
+  background-color: #ffffff;
+  padding: 3rem 1rem;
+}
+
+.guideline-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  animation: slideIn 0.6s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.guideline-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+
+.card-orange {
+  border-top: 6px solid orange;
+}
+
+.card-blue {
+  border-top: 6px solid #0d6efd;
+}
+
+
+.guideline-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #333;
+  position: relative;
+}
+
+.guideline-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: currentColor;
+  margin-top: 8px;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.guideline-card:hover .guideline-title::after {
+  width: 80px;
+}
+
+
+.guideline-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.guideline-card:hover .guideline-text {
+  color: #222;
+}
+
+.criteria-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.criteria-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: #444;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.criteria-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #198754;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.criteria-list li:hover {
+  transform: translateX(5px);
+  color: #0d6efd;
+}
+
+.criteria-list li:hover::before {
+  transform: scale(1.3);
+  color: orange;
+} */

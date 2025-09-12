@@ -1,0 +1,98 @@
+/* Navbar Styling */
+.navbar {
+  background-color: hsl(0, 11%, 86%) !important; /* Soft grey-white */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow under navbar */
+}
+
+.navbar-nav {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+.class1 {
+  font-weight: 400px;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+  transform: scale(1.05);
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background-color: white;
+  padding: 3rem 1rem;
+}
+
+.hero-section .row {
+  background-color: #a3e588;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow under hero block */
+  padding: 2rem;
+}
+
+.apply-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apply-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(25, 135, 84, 0.3);
+}
+
+.hero-video {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Heading Styling
+h1 {
+  color: orange;
+} */
+
+
+ /* .navbar {
+    background-color: greenyellow;
+}
+
+
+.hero-section {
+  background-color: #f8f9fa;
+}
+
+
+.nav-hover {
+  transition: all 0.3s ease;
+}
+
+.nav-hover:hover {
+  color: #0d6efd !important;
+  transform: scale(1.05);
+}
+
+
+.apply-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apply-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(25, 135, 84, 0.3);
+}
+
+
+.hero-image {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+} */

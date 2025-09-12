@@ -1,0 +1,34 @@
+/* 
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
+
+.btn-primary-custom {
+  background-color: #FF6B35;
+  border-color: #FF6B35;
+}
+
+.btn-primary-custom:hover {
+  background-color: #e55a2e;
+  border-color: #e55a2e;
+}
+
+.feature-card {
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-primary-custom {
+  color: #FF6B35 !important;
+}
+
+.border-primary-custom {
+  border-color: #FF6B35 !important;
+} */
