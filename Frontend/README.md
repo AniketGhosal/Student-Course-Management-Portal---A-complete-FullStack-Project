@@ -125,3 +125,9 @@ DAY 8 THURSDAY - 11/09/2025
 3rd Report: Successfully implemented Student portal connection with Login functionality. It means, students successfully logged in their portal with valid credentials.
 
 
+
+
+DAY 9 MONDAY - 15/09/2025
+
+1st Report: Successfully added Student Dashboard and Admin Dashboard with 'Login' button. Using 'Login' button, Student's now redirected to their student dashboard portal with their credentials and Admin's are redirected to their admin dashboard portal with their credentials.
+

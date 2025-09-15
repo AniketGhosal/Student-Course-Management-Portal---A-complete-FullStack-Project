@@ -20,6 +20,10 @@ exports.loginUser = async (req, res) => {
     );
 
     res.json({ token, role: user.role });
+
+    // ✅ Include name in response
+    res.json({ token, role: user.role, name: user.name });
+
   } catch (err) {
     console.error(err.message);
     res.status(500).json({ message: 'Server error' });
