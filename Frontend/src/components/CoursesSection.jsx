@@ -67,3 +67,53 @@ const CoursesSection = () => {
 };
 
 export default CoursesSection;
+
+
+
+
+// import React from 'react';
+// import './CoursesSection.css';
+// import { NavLink } from 'react-router-dom';
+
+// const CourseSection = ({ title, courses = [], direction = 'ltr' }) => {
+//   return (
+//     <div className={`courses-wrapper py-5 px-4 ${direction === 'rtl' ? 'text-end' : ''}`}>
+//       <h2 className="text-center fw-bold mb-5 text-primary">{title}</h2>
+
+//       <div className="container">
+//         <div className="row">
+//           {Array.isArray(courses) && courses.length > 0 ? (
+//             courses.map((course, index) => (
+//               <div className="col-md-4 mb-4" key={index}>
+//                 <div className="course-card">
+//                   <img src={course.image} alt={course.title} className="course-image" />
+//                   <div className="course-body">
+//                     <h5 className="course-title">{course.title}</h5>
+//                     <p className="course-description">{course.description}</p>
+//                     <div className="text-center">
+//                       <button className="btn btn-primary enroll-btn">Enroll</button>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             ))
+//           ) : (
+//             <div className="col-12">
+//               <p className="text-center text-muted">No courses available in this category.</p>
+//             </div>
+//           )}
+//         </div>
+
+//         <div className="text-center mt-4">
+//           <button className="btn btn-outline-success explore-btn">
+//             <NavLink className="nav-link nav-hover-course" to="/courses">
+//               Explore More Courses
+//             </NavLink>
+//           </button>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default CourseSection;

@@ -131,3 +131,6 @@ DAY 9 MONDAY - 15/09/2025
 
 1st Report: Successfully added Student Dashboard and Admin Dashboard with 'Login' button. Using 'Login' button, Student's now redirected to their student dashboard portal with their credentials and Admin's are redirected to their admin dashboard portal with their credentials.
 
+
+DAY  10 TUESDAY - 16/09/2025
+

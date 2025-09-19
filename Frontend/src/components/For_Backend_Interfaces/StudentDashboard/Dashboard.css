@@ -1,0 +1,256 @@
+/* CSS for TopNavbar.jsx  */
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002147;
+  padding: 10px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.dashboard-navbar-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dashboard-navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.dashboard-navbar-link {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-navbar-link:hover {
+  background-color: #004080;
+  border-radius: 4px;
+}
+
+.dashboard-navbar-profile-dropdown {
+  position: relative;
+}
+
+.dashboard-navbar-profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.dashboard-navbar-dropdown-content {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 6px;
+  min-width: 160px;
+}
+
+.dashboard-navbar-dropdown-link {
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.dashboard-navbar-dropdown-link:hover {
+  color: #002147;
+}
+
+.dashboard-navbar-link {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 4px;
+}
+
+.dashboard-navbar-link:hover {
+  background-color: yellowgreen;
+  color: brown;
+  font-weight: bolder;
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+
+
+/* CSS for DashboardHome.css */
+
+
+.dashboard-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.dashboard-progress {
+  flex: 1;
+  min-width: 250px;
+}
+
+.progress-item {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 24px;
+}
+
+.progress-fill {
+  background-color: #004080;
+  color: white;
+  height: 100%;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+  transition: width 0.5s ease;
+}
+
+
+.dashboard-video {
+  flex: 1;
+  min-width: 300px;
+}
+
+.dashboard-announcements {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    flex-direction: column;
+  }
+
+  .dashboard-video iframe {
+    height: 180px;
+  }
+}
+
+.dashboard-header {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #004080;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+
+/* .dashboard-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.dashboard-progress {
+  flex: 1;
+  min-width: 250px;
+}
+
+.progress-item {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 24px;
+}
+
+.progress-fill {
+  background-color: #004080;
+  color: white;
+  height: 100%;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+  transition: width 0.5s ease;
+}
+
+.dashboard-video {
+  flex: 1;
+  min-width: 300px;
+}
+
+.dashboard-announcements {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+.announcement-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-left: 4px solid #004080;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.announcement-item button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.announcement-item button:hover {
+  background-color: #002147;
+} */

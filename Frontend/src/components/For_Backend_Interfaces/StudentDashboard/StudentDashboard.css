@@ -1,0 +1,36 @@
+/* StudentDashboard.css */
+
+.student-dashboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.student-dashboard-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 30px;
+  margin-left: 200px; /* matches sidebar width */
+  background-color: #f5f5f5;
+  overflow-y: auto;
+  height: calc(100vh - 60px); /* adjust for navbar height */
+  transition: all 0.3s ease;
+}
+
+/* Responsive tweak for smaller screens */
+@media (max-width: 768px) {
+  .dashboard-main {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .student-dashboard-body {
+    flex-direction: column;
+  }
+}

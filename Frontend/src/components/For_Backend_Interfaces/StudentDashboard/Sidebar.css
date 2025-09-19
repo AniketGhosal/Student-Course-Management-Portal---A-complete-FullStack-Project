@@ -1,0 +1,77 @@
+/* CSS for Sidebar.jsx 
+
+.sidebar {
+  width: 200px;
+  background-color: #489ceb; 
+  color: white;
+  padding: 20px;
+  height: calc(100vh - 60px); 
+  position: fixed;
+  top: 60px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 999;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+}
+
+.sidebar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar-link.active {
+  background-color: #0055aa;
+  font-weight: bold;
+}
+
+.sidebar-link:hover {
+  background-color: #003366;
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+ */
+
+ .sidebar {
+  width: 200px;
+  background-color: #489ceb;
+  color: white;
+  padding: 20px;
+  height: calc(100vh - 60px);
+  position: fixed;
+  top: 60px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 999;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+}
+
+.sidebar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #003366;
+  transform: scale(1.03);
+}
+
+.sidebar-link.active {
+  background-color: #0055aa;
+  font-weight: bold;
+}

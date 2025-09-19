@@ -1,4 +1,4 @@
-.courses-wrapper {
+ .courses-wrapper {
   background-color: #ffffff;
 }
 
@@ -20,7 +20,7 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
 }
 
-/* Image section */
+
 .course-image {
   width: 100%;
   height: 180px;
@@ -28,7 +28,6 @@
   border-bottom: 1px solid #ddd;
 }
 
-/* Content section */
 .course-body {
   flex: 1;
   padding: 1rem;
@@ -52,7 +51,6 @@
   margin-bottom: 1rem;
 }
 
-/* Enroll button centered */
 .enroll-btn {
   font-weight: 500;
   padding: 8px 20px;
@@ -65,7 +63,7 @@
   color: white;
 }
 
-/* Explore button */
+
 .explore-btn {
   padding: 10px 24px;
   font-weight: bold;
@@ -75,4 +73,5 @@
 .explore-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(25, 135, 84, 0.3);
-}
+} 
+
